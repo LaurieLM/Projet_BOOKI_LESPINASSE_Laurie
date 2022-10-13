@@ -1,0 +1,221 @@
+.activities {
+    display: inline-flex;
+    width: 100%;
+}
+
+.activities-flex {
+    display: flex;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.container_flex {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container1 {
+    width: 23%;
+    height: auto;
+    margin: 0 35px 0 13px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    box-shadow: 0px 0px 13px 4px lightgrey;
+}
+
+.container2 {
+    height: 50%;
+    margin-right: 35px;
+    border-radius: 10px 10px 10px 10px ;
+    background-color: white;
+    box-shadow: 0px 0px 13px 4px lightgrey;
+}
+
+.container3 {
+    height: 40%;
+    margin-right: 35px;
+    border-radius: 10px 10px 10px 10px ;
+    background-color: white;
+    box-shadow: 0px 0px 13px 4px lightgrey;
+}
+
+.container4 {
+    width: 23%;
+    height: auto;
+    margin-right: 35px;
+    border-radius: 10px 10px 10px 10px ;
+    background-color: white;
+    box-shadow: 0px 0px 13px 4px lightgrey;
+}
+
+.container5 {
+    height: 40%;
+    border-radius: 10px 10px 10px 10px ;
+    background-color: white;
+    box-shadow: 0px 0px 13px 4px lightgrey;
+}
+
+.container6 {
+    height: 50%;
+    border-radius: 10px 10px 10px 10px ;
+    background-color: white;
+    box-shadow: 0px 0px 13px 4px lightgrey;
+}
+
+
+.container1 a, .container2 a, .container3 a, .container4 a, .container5 a, .container6 a {
+    color: black;
+    text-decoration: none;
+}
+
+.container-image1, .container-image4 {
+    height: 100%;
+}
+
+.container-image2 {
+    height: 88%;
+}
+
+.container-image3 {
+    height: 84%;
+}
+
+.container-image5 {
+    height: 83%;
+}
+
+.container-image6 {
+    height: 90%;
+}
+
+.container-image1 img, .container-image2 img, .container-image3 img, .container-image4 img, .container-image5 img, .container-image6 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px 10px 0 0;
+    top: 2%;
+    left: 2%;
+    right: 2%;
+    bottom: 2%;
+}
+
+.container-title1, .container-title4 {
+    position: relative;
+    font-size: 14px;
+    margin: 0 0 0 15px;
+    top: -30px;
+}
+
+.container-title2,.container-title3, .container-title5 {
+    position: relative;
+    font-size: 14px;
+    margin: 0 0 0 15px;
+    top: -5px;
+}
+
+.container-title6 {
+    position: relative;
+    font-size: 14px;
+    margin: 0 0 0 15px;
+    top: -11px;
+}
+@media screen and (max-width: 992px) {
+    
+    .activities-flex {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        
+    }
+
+    .container1, .container4{
+        width: 40%;
+        margin: 0 0 0 10px;
+    }
+
+    .container_flex {
+        width: 50%;
+    }
+
+    .container4, .container5, .container6 {
+        margin-top: 45px;
+    }
+
+    .container2, .container3 { 
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .activities {
+        display: block;
+        width: 93%
+    }
+    .container_flex {
+        display: block;
+        width: 100%
+
+    }
+    .activities h2 {
+        font-size: 20px;
+    }
+
+    .activities-flex {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .container2, .container-flex2 {
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .container1, .container4 {
+        width: 100%;
+        height: 16%;
+        border-radius: 25px 25px 25px 25px;
+        margin: 0 0 25px 23px;
+
+    }
+    .container2, .container3, .container5, .container6 {
+        width: 100%;
+        height: 16%;
+        border-radius: 25px 25px 25px 25px;
+        margin: 0 0 25px 11px;
+        padding-bottom: 2px;
+    }
+
+    .container-image1, .container-image2, .container-image3, .container-image4, .container-image5, .container-image6 {
+        width: auto;
+        height: 200px;
+        position: relative;
+        
+    }
+
+    .container-image1 img, .container-image2 img, .container-image3 img, .container-image4 img, .container-image5 img, .container-image6 img {
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        position: absolute;
+        border-radius: 25px 25px 0 0;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        
+    }
+    
+    .container-title1, .container-title2, .container-title3, .container-title4, .container-title5, .container-title6 {
+        font-size: 12px;
+        top: -11px;
+    }
+}
+    

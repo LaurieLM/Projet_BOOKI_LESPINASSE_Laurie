@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BOOKI</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap">
+
+    <script src="https://kit.fontawesome.com/b47249feaf.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section1.css">
+    <link rel="stylesheet" href="css/section2.css">
+    <link rel="stylesheet" href="css/section3.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <div class="header1">
+            <div class="logo">
+
+                <h1 hidden>Booki</h1>
+                <img src="./images/logo/booki.png" alt="Booki" />
+
+            </div>
+
+            <nav class="menu">
+
+                <a href="#hebergements">Hébergements</a>
+                <a href="#activites">Activités</a>
+
+            </nav>
+        </div>
+
+        <p class="text-1">Trouvez votre hébergement pour des vacances de rêve</p>
+        <p class="text-2">En plein centre ville ou en pleine nature</p>
+
+        <div class="search-bar">
+
+            <i class="fas fa-map-marker-alt"></i>
+
+            <form action="search.php" method="get">
+
+                <label for="search" hidden>Rechercher un logement</label>
+                <input type="search" id="search" name="q" placeholder="Marseille, France" aria-label="Rechercher un logement">
+
+                <button type="submit" class="button-desktop">Rechercher</button>
+                <button type="submit" class="button-mobil">
+                    <i class="fas fa-search"></i>
+                </button>
+
+            </form>
+        </div>
+
+        <div class="filters">
+
+            <p>Filtres</p>
+
+            <ul>
+
+                <li> <i class="fas fa-money-bill-wave"></i> Économique</li>
+                <li> <i class="fas fa-child"></i> Familial</li>
+                <li> <i class="fas fa-heart"></i> Romantique</li>
+                <li> <i class="fas fa-dog"></i> Animaux autorisés</li>
+
+            </ul>
+        </div>
+    </header>
+
+    <div class="content">
+
+        <div class="logoinfo"><i class="fas fa-info"></i>
+
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+
+        </div>
+    </div>
+<main>
+    <!-- Section 1 Hébergement  -->
+
+    <div class="layout1">
+
+        <section class="lodging">
+
+            <h2 id="hebergements">Hébergements à Marseille</h2>
+
+            <div class="container">
+
+                <!-- card 1 -->
+
+                <div class="card">
+
+                    <a href="#">
+                        <div class="card-image">
+
+                            <img src="./images/hebergements/auberge_la_cannebiere.jpg" alt="Auberge La Cannebière">
+                        </div>
+
+                        <div class="card-body">
+                            <div class="card-title">
+
+                                <h4>Auberge La Cannebière</h4>
+                            </div>
+
+                            <div class="card-price">
+
+                                Nuit à partir de <strong>25 &euro;</strong>
+                            </div>
+
+                            <div class="card-notation">
+
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                                <div class="grey-star">
+
+                                <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- card 2 -->
+
+                <div class="card">
+                    <a href="#">
+
+                        <div class="card-image">
+
+                            <img src="./images/hebergements/hotel_du_port.jpg" alt="Hôtel du port">
+                        </div>
+
+                        <div class="card-body">
+                            <div class="card-title">
+
+                                <h4>Hôtel du port</h4>
+                            </div>
+
+                            <div class="card-price">
+
+                                Nuit à partir de <strong>52€</strong>
+                            </div>
+
+                            <div class="card-notation">
+
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>                                                            </div>
+                            </div>
+                    </a>
+                </div>
+
+                <!-- card  3 -->
+
+                <div class="card">
+                    <a href="#">
+
+                        <div class="card-image">
+
+                            <img src="./images/hebergements/hotel_les_mouettes.jpg" alt="Hôtel les mouettes">
+                        </div>
+
+                        <div class="card-body">
+                            <div class="card-title">
+
+                                <h4>Hôtel Les mouettes</h4>
+                            </div>
+
+                            <div class="card-price">
+
+                                Nuit à partir de <strong>76€</strong>
+                            </div>
+
+                            <div class="card-notation">
+
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                                <div class="grey-star">
+
+                                <i class="fas fa-star"></i>
+                                </div>
+                            </div>                            
+                        </div>
+                    </a>
+                </div>
+
+                <!-- card 4 -->
+
+                <div class="card">
+                    <a href="#">
+
+                        <div class="card-image">
+
+                            <img src="./images/hebergements/hotel_de_la_mer.jpg" alt="Hôtel de la mer">
+                        </div>
+
+                        <div class="card-body">
+                            <div class="card-title">
+
+                                <h4>Hôtel de la mer</h4>
+                            </div>
+
+                            <div class="card-price">
+
+                                Nuit à partir de <strong>46€</strong>
+                            </div>
+
+                            <div class="card-notation">
+
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                                <div class="grey-star">
+
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>                           
+                        </div>
+                    </a>
+                </div>
+
+                <!-- card 5 -->
+
+                <div class="card">
+                    <a href="#">
+
+                        <div class="card-image">
+
+                            <img src="./images/hebergements/auberge_le_panier.jpg" alt="Auberge Le Panier">
+                        </div>
+
+                        <div class="card-body">
+                            <div class="card-title">
+
+                                <h4>Auberge Le Panier</h4>
+                            </div>
+
+                            <div class="card-price">
+
+                                Nuit à partir de <strong>23€</strong>
+                            </div>
+
+                            <div class="card-notation">
+
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                               <div class="grey-star">
+
+                                <i class="fas fa-star"></i>
+                                </div> 
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- card 6 -->
+
+                <div class="card">
+                    <a href="#">
+
+                        <div class="card-image">
+
+                            <img src="./images/hebergements/hotel_chez_amina.jpg" alt="Hôtel chez Amina">
+                        </div>
+
+                        <div class="card-body">
+                            <div class="card-title">
+
+                                <h4>Hôtel chez Amina</h4>
+                            </div>
+
+                            <div class="card-price">
+
+                                Nuit à partir de <strong>96€</strong>
+                            </div>
+
+                            <div class="card-notation">
+
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="a1">
+
+                <a href="#">Afficher plus</a>
+            </div>
+        </section>
+
+        <!-- Section 2 Les plus populaires -->
+
+        <section id="most_popular">
+
+            <div class="popular_flex">
+
+                <h2>Les plus populaires</h2>
+
+                <div class="popular_logo">
+
+                    <i class="fas fa-chart-line"></i>
+                </div>
+            </div>
+
+            <div class="popular_container">
+
+                <!-- card 1 -->
+
+                <div class="card1">
+                    <a href="#">
+
+                        <div class="card-image1">
+
+                            <img src="./images/hebergements/hotel_le_soleil_du_matin.jpg" alt="Hôtel Le soleil du matin">
+                        </div>
+
+                        <div class="card-body1">
+                            <div class="card-title1">
+
+                                <h4>Hôtel Le soleil du matin</h4>
+                            </div>
+
+                            <div class="card-price1">
+
+                                Nuit à partir de <strong>128€</strong>
+                            </div>
+
+                            <div class="card-notation1">
+
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- card 2 -->
+
+                <div class="card1">
+                    <a href="#">
+
+                        <div class="card-image1">
+
+                            <img src="./images/hebergements/au_coeur_de_leau_chambres_dhotes.jpg" alt="Au coeur de l'eau Chambres d'hôtes">
+                        </div>
+
+                        <div class="card-body1">
+                            <div class="card-title1">
+
+                                <h4>Au coeur de l'eau Chambres d'hôtes</h4>
+                            </div>
+
+                            <div class="card-price1">
+
+                                Nuit à partir de <strong>71€</strong>
+                            </div>
+
+                            <div class="card-notation1">
+
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                                <div class="grey-star1">
+
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+
+                                
+                        </div>
+                    </a>
+                </div>
+
+                <!-- card  3 -->
+
+                <div class="card1">
+                    <a href="#">
+
+                        <div class="card-image1">
+
+                            <img src="./images/hebergements/hotel_tout_bleu_et_blanc.jpg" alt="Hôtel Tout bleu et Blanc">
+                        </div>
+
+                        <div class="card-body1">
+                            <div class="card-title1">
+
+                                <h4>Hôtel Tout bleu et Blanc</h4>
+                            </div>
+
+                            <div class="card-price1">
+
+                                Nuit à partir de <strong>68€</strong>
+                            </div>
+
+                            <div class="card-notation1">
+
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                                <div class="grey-star1">
+
+                                <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Section 3 Activités  -->
+
+    <h2 id="activites">Activités à Marseille</h2>
+
+    <section class="activities">
+        <div class="activities-flex">
+
+            <!-- container 1 -->
+
+            <div class="container1">
+                <a href="#">
+
+                    <div class="container-image1">
+
+                        <img src="./images/activites/vieux_port.jpg" alt="Vieux Port">
+                    </div>
+
+                    <div class="container-title1">
+
+                        <h4>Vieux Port</h4>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- container 2 -->
+
+            <div class="container_flex">
+                <div class="container2">
+                    <a href="#">
+
+                        <div class="container-image2">
+
+                            <img src="./images/activites/fort_de_pomegues.jpg" alt="Fort de Pomègues">
+                        </div>
+
+                        <div class="container-title2">
+
+                            <h4>Fort de Pomègues</h4>
+                        </div>
+                    </a>
+                </div>
+            
+
+            <!-- container 3 -->
+
+                <div class="container3">
+                    <a href="#">
+
+                        <div class="container-image3">
+
+                            <img src="./images/activites/iles_du_frioul.jpg" alt="Îles du Frioul">
+                        </div>
+
+                        <div class="container-title3">
+
+                            <h4>Îles du Frioul</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- container 4 -->
+
+            <div class="container4">
+                <a href="#">
+
+                    <div class="container-image4">
+
+                        <img src="./images/activites/parc_national_des_calanques.jpg" alt="Parc National des Calanques">
+                    </div>
+
+                     <div class="container-title4">
+
+                        <h4>Parc National des Calanques</h4>
+                    </div>
+                </a>
+            </div>
+            <!-- container 5 -->
+
+            <div class="container_flex">
+                <div class="container5">
+                    <a href="#">
+
+                        <div class="container-image5">
+
+                            <img src="./images/activites/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde">
+                        </div>
+
+                        <div class="container-title5">
+
+                            <h4>Notre-Dame-de-la-Garde</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- container 6 -->
+
+                <div class="container6">
+                    <a href="#">
+
+                        <div class="container-image6">
+
+                            <img src="./images/activites/parc_longchamp.jpg" alt="Parc Longchamp">
+                        </div>
+
+                        <div class="container-title6">
+
+                            <h4>Parc Longchamp</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <!-- Footer -->
+
+    <footer>
+        <section class="footer">
+            <div class="footer-flex">
+
+                <div class="footer-flex1">
+
+                    <h5><a href="#">A propos</a></h5>
+                    <a href="#">Fonctionnement du site</a>
+                    <a href="#">Conditions générales de vente</a>
+                    <a href="#">Données et confidentialité</a>
+                </div>
+
+                <div class="footer-flex1">
+
+                    <h5><a href="#">Nos hébergements</a></h5>
+                    <a href="#">Charte qualité</a>
+                    <a href="#">Soumettre votre hôtel</a>
+                </div>
+
+                <div class="footer-flex1">
+
+                    <h5><a href="#">Assistance</a></h5>
+                    <a href="#">Centre d'aide</a>
+                    <a href="#">Nous contacter</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
